@@ -6,7 +6,7 @@
 namespace TestBeamTracker {
 //------------------------------------------------------------------------------
 
-std::normal_distribution<double> gauss(0., 1.);
+std::normal_distribution<long double> gauss(0., 1.);
 std::default_random_engine       generator(42);
 
 /////
